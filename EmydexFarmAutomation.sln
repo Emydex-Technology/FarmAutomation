@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emydex.FarmAutomation.IoT.Core", "Emydex.FarmAutomation.Devices.Core\Emydex.FarmAutomation.IoT.Core.csproj", "{6DD403E1-CE58-4941-9CD6-518D9ECA51A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emydex.FarmAutomation.WebApi", "Emydex.FarmAutomation.WebApi\Emydex.FarmAutomation.WebApi.csproj", "{E8E3E22E-BC91-4921-9774-3B15D50DF3B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD403E1-CE58-4941-9CD6-518D9ECA51A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD403E1-CE58-4941-9CD6-518D9ECA51A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD403E1-CE58-4941-9CD6-518D9ECA51A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD403E1-CE58-4941-9CD6-518D9ECA51A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E3E22E-BC91-4921-9774-3B15D50DF3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E3E22E-BC91-4921-9774-3B15D50DF3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E3E22E-BC91-4921-9774-3B15D50DF3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E3E22E-BC91-4921-9774-3B15D50DF3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C1269C5-BE8E-4C02-BC97-7E8D72B3DA0B}
+	EndGlobalSection
+EndGlobal
