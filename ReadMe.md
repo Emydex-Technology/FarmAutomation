@@ -1,4 +1,5 @@
-This repository proives a base project template to complete their coding test as part of the Emydex Web Developer recruitment process. This project is designed to test candidates skill level and experience developing a RESTful API library to be consumed by a mobile application.
+# About this Repository
+This repository provides a base project template to complete their coding test as part of the Emydex Web Developer recruitment process. This project is designed to test candidates skill level and experience developing a RESTful API library to be consumed by a mobile application.
 
 # Project Description
 
@@ -21,9 +22,9 @@ The team is now relying on your expertise to design and develop these RESTful AP
 However, there are few basic guidelines and requirements the team expects you to follow when building the API back-end to give the thumps up
 
 1. Every IoT device is different, so all operations on the device must be done with the help of the standard interface defined in the core library (IFarmAutomationDevice). 
-   It should be easily possible to switch over to a different IoT device without impacting the entire code base
+   It should be easily possible to switch over to a different IoT device without impacting the entire code base and help with unit testing
 
-2. List of registered devices must be only access through the repository provided (IDeviceRepository)
+2. List of registered devices must only be access through the repository provided (IDeviceRepository)
 
 3. These devices have a secret activation key which should never be exposed outside. 
    When returning a list of devices, you need to make sure you not to accidentally expose this to the UI via the APIs
@@ -35,8 +36,6 @@ However, there are few basic guidelines and requirements the team expects you to
 5. Currently team is only testing the RoboFarmPLC IoT device. So make sure to use this device instead of the AutoFarmPLC
 
 6. There should be no modification to the DeviceWrappers, DeviceRepository classes or the Emydex.FarmAutomation.IoT.Core library project
-
-7. There is no expectation to implement security apart from making use of the FarmerAuthorize attribute.
 
 # Important 
 When submitting your solution for review please provide a short summary of how you have met the requirements of this project and your assumptions or reason to take any particular approach. Tell us why your solution is the best compared the rest of the Candidates
