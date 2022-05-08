@@ -1,5 +1,5 @@
 # About this Repository
-This repository is used as part of the Emydex recruitment process. Candidates are expected to complete a basic coding test and submit their solution so our technical team can have a better insight into their coding skills and suitability for the role on offer. 
+This repository is used as part of the Emydex recruitment process. Candidates are expected to complete a basic coding test. This is to allow our technical team to get a better insight into their coding skills and suitability for the role on offer. 
 This repository provides a base working project template for the fictitious Farm Automation System being developed by the Emydex Web Development Team.  
 This exercise is designed to test candidates' coding skills and experience building a RESTful API library to be consumed by a mobile application. There is never a perfect solution and each developer solves the problem in their unique way based on their experiences and knowledge. So the least we expect from you is to do your best. 
 
